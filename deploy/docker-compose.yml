@@ -1,0 +1,18 @@
+# Put this file on the server at /var/lib/docker/compose/zhadko-site/docker-compose.yml
+# and run:  docker compose up -d
+services:
+  site:
+    container_name: 'zhadko-site'
+    image: gregzhadko/zhadko-site:latest
+    restart: always
+    ports:
+      - "127.0.0.1:8090:80"
+
+  # Pulls a new image after every push to main (GitHub Actions -> Docker Hub).
+  watchtower:
+    image: containrrr/watchtower
+    container_name: watchtower-site
+    restart: always
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    command: --interval 60 --cleanup zhadko-site
