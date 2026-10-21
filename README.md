@@ -40,6 +40,7 @@ Another port: `PORT=3000 npm start`.
 ## Editing
 
 - Texts: `src/content.mjs`. Every language has the same keys; change all three.
+- **TODO photo:** the current photo (from LinkedIn, 500×500, uploaded rotated) is cropped too tight — the chin is cut. Replace it with a better square original.
 - Photo: put a square JPEG at `public/assets/photo.jpg` (≈ 600×600). Without it the page shows "GZ" initials.
 
 ## Deploy

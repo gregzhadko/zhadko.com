@@ -97,22 +97,22 @@ export const langs = {
     },
     stats: [
       ['17', 'years building software'],
-      ['100K', 'daily active users served'],
-      ['99.99%', 'uptime of systems I led'],
-      ['3', 'continents, teams I worked with'],
+      ['13M+', 'players of SUITSME, whose backend I built from scratch'],
+      ['100K', 'daily players at peak in SUITSME'],
+      ['11', 'companies and clients, from startups to Barclays'],
     ],
     about: {
       title: 'About',
       paragraphs: [
-        'I am a backend engineer from Russia, living in Valencia since 2023 and working as a registered autónomo in Spain. Before that I worked in Novosibirsk, Australia and Prague, for companies from small startups to EPAM and Barclays.',
-        'My core is C# and .NET: clean, testable services, well-designed databases and messaging, and the infrastructure around them. I have led backend teams, hired and mentored developers, and been responsible for systems in production.',
+        'I am a lead backend engineer living in Valencia since 2023 and working as a registered autónomo in Spain. Over my career I have worked with teams and clients all over the world, from small startups to EPAM and Barclays.',
+        'My core is the server side: clean, testable services, well-designed databases and messaging, and the infrastructure around them. I have led backend teams, hired and mentored developers, and been responsible for systems in production.',
         'I work directly with founders and small teams: I can take an idea, turn it into a working first version, and then keep it fast, secure and cheap to run.',
       ],
       facts: [
         ['Based in', 'Valencia, Spain (CET)'],
         ['Status', 'Autónomo · invoices with IVA'],
         ['Languages', 'English, Russian, Spanish'],
-        ['Education', 'MSc, Computer Science — Novosibirsk State University'],
+        ['Education', "Master's degree in Computer Science — Novosibirsk State University"],
       ],
     },
     services: {
@@ -122,7 +122,7 @@ export const langs = {
         {
           id: 'backend',
           title: 'Backend development',
-          text: 'Server-side part of web and mobile applications: APIs, business logic, data processing and background jobs, built with C#/.NET and PostgreSQL, MongoDB or Redis.',
+          text: 'Server-side part of web and mobile applications: APIs, business logic, data processing and background jobs, built with C#/.NET and PostgreSQL, MongoDB, Redis or other technologies that fit your project.',
         },
         {
           id: 'integrations',
@@ -162,9 +162,9 @@ export const langs = {
     experience: {
       title: 'Experience',
       items: {
-        raritex: ['Backend developer (contractor)', 'Backend services for an identity-verification and compliance (KYC/AML) platform.'],
-        deltatre: ['.NET developer (contractor)', 'Entitlement and content services for sports streaming platforms.'],
-        altery: ['Backend lead (contractor)', 'Backend of a payment and e-money platform; led backend development.'],
+        raritex: ['Backend developer', 'Backend services for an identity-verification and compliance (KYC/AML) platform.'],
+        deltatre: ['.NET developer', 'Entitlement and content services for sports streaming platforms.'],
+        altery: ['Backend lead', 'Backend of a payment and e-money platform; led backend development.'],
         w7g: ['Backend team lead', 'Built the backend of SUITSME and FABU mobile apps from scratch: up to 100,000 daily active users, 99.99% uptime, under 300 ms average response. Cut AWS costs and led a remote backend team.'],
         tawasal: ['Senior software engineer', 'Payment distribution, giveaways and admin tools for a super-app, delivered for the beta launch; Hangfire-based background processing.'],
         logican: ['Senior software engineer', 'CRM in Azure with SQL Server and a WPF desktop client; a contract-management portal for lawyers with document generation (.NET Core, Vue.js).'],
@@ -254,22 +254,22 @@ export const langs = {
     },
     stats: [
       ['17', 'años desarrollando software'],
-      ['100K', 'usuarios activos diarios'],
-      ['99,99 %', 'disponibilidad de los sistemas que dirigí'],
-      ['3', 'continentes con equipos con los que he trabajado'],
+      ['13M+', 'jugadores de SUITSME, cuyo backend construí desde cero'],
+      ['100K', 'jugadores diarios en el pico de SUITSME'],
+      ['11', 'empresas y clientes, desde startups hasta Barclays'],
     ],
     about: {
       title: 'Sobre mí',
       paragraphs: [
-        'Soy ingeniero backend, vivo en Valencia desde 2023 y trabajo como autónomo dado de alta en España. Antes trabajé en Novosibirsk, Australia y Praga, para empresas desde pequeñas startups hasta EPAM y Barclays.',
-        'Mi especialidad es C# y .NET: servicios limpios y testeables, bases de datos y mensajería bien diseñadas, y la infraestructura que los rodea. He dirigido equipos backend, he contratado y formado a desarrolladores y he sido responsable de sistemas en producción.',
+        'Soy ingeniero backend lead, vivo en Valencia desde 2023 y trabajo como autónomo dado de alta en España. A lo largo de mi carrera he trabajado con equipos y clientes de todo el mundo, desde pequeñas startups hasta EPAM y Barclays.',
+        'Mi especialidad es el lado del servidor: servicios limpios y testeables, bases de datos y mensajería bien diseñadas, y la infraestructura que los rodea. He dirigido equipos backend, he contratado y formado a desarrolladores y he sido responsable de sistemas en producción.',
         'Trabajo directamente con fundadores y equipos pequeños: puedo convertir una idea en una primera versión que funciona y después mantenerla rápida, segura y barata de operar.',
       ],
       facts: [
         ['Ubicación', 'Valencia, España (CET)'],
         ['Forma jurídica', 'Autónomo · facturas con IVA'],
         ['Idiomas', 'Inglés, ruso, español'],
-        ['Formación', 'Máster en Informática — Universidad Estatal de Novosibirsk'],
+        ['Formación', 'Máster (MSc) en Informática — Universidad Estatal de Novosibirsk'],
       ],
     },
     services: {
@@ -279,7 +279,7 @@ export const langs = {
         {
           id: 'backend',
           title: 'Desarrollo backend',
-          text: 'La parte de servidor de aplicaciones web y móviles: APIs, lógica de negocio, procesamiento de datos y tareas en segundo plano, con C#/.NET y PostgreSQL, MongoDB o Redis.',
+          text: 'La parte de servidor de aplicaciones web y móviles: APIs, lógica de negocio, procesamiento de datos y tareas en segundo plano, con C#/.NET y PostgreSQL, MongoDB, Redis u otras tecnologías que encajen en su proyecto.',
         },
         {
           id: 'integrations',
@@ -319,9 +319,9 @@ export const langs = {
     experience: {
       title: 'Experiencia',
       items: {
-        raritex: ['Desarrollador backend (contratista)', 'Servicios backend para una plataforma de verificación de identidad y cumplimiento normativo (KYC/AML).'],
-        deltatre: ['Desarrollador .NET (contratista)', 'Servicios de derechos de acceso y contenidos para plataformas de streaming deportivo.'],
-        altery: ['Backend lead (contratista)', 'Backend de una plataforma de pagos y dinero electrónico; dirección del desarrollo backend.'],
+        raritex: ['Desarrollador backend', 'Servicios backend para una plataforma de verificación de identidad y cumplimiento normativo (KYC/AML).'],
+        deltatre: ['Desarrollador .NET', 'Servicios de derechos de acceso y contenidos para plataformas de streaming deportivo.'],
+        altery: ['Backend lead', 'Backend de una plataforma de pagos y dinero electrónico; dirección del desarrollo backend.'],
         w7g: ['Jefe de equipo backend', 'Construí desde cero el backend de las apps móviles SUITSME y FABU: hasta 100.000 usuarios activos diarios, 99,99 % de disponibilidad y menos de 300 ms de respuesta media. Reduje costes de AWS y dirigí un equipo backend en remoto.'],
         tawasal: ['Ingeniero de software senior', 'Distribución de pagos, sorteos y herramientas de administración para una superapp, entregados para el lanzamiento beta; procesamiento en segundo plano con Hangfire.'],
         logican: ['Ingeniero de software senior', 'CRM en Azure con SQL Server y cliente de escritorio WPF; portal de gestión de contratos para abogados con generación de documentos (.NET Core, Vue.js).'],
@@ -411,22 +411,22 @@ export const langs = {
     },
     stats: [
       ['17', 'лет в разработке'],
-      ['100K', 'активных пользователей в день'],
-      ['99,99 %', 'доступность систем под моим руководством'],
-      ['3', 'континента — команды, с которыми я работал'],
+      ['13M+', 'игроков SUITSME — backend я построил с нуля'],
+      ['100K', 'игроков в день на пике в SUITSME'],
+      ['11', 'компаний и заказчиков — от стартапов до Barclays'],
     ],
     about: {
       title: 'Обо мне',
       paragraphs: [
-        'Я backend-разработчик, с 2023 года живу в Валенсии и работаю как зарегистрированный autónomo в Испании. До этого работал в Новосибирске, Австралии и Праге — от небольших стартапов до EPAM и Barclays.',
-        'Моя основа — C# и .NET: чистые и тестируемые сервисы, продуманные базы данных и очереди сообщений, инфраструктура вокруг них. Руководил backend-командами, нанимал и обучал разработчиков, отвечал за системы в продакшене.',
+        'Я lead backend-разработчик, с 2023 года живу в Валенсии и работаю как зарегистрированный autónomo в Испании. За свою карьеру работал с командами и заказчиками по всему миру — от небольших стартапов до EPAM и Barclays.',
+        'Моя основа — серверная разработка: чистые и тестируемые сервисы, продуманные базы данных и очереди сообщений, инфраструктура вокруг них. Руководил backend-командами, нанимал и обучал разработчиков, отвечал за системы в продакшене.',
         'Работаю напрямую с основателями и небольшими командами: могу превратить идею в работающую первую версию, а потом поддерживать её быстрой, безопасной и недорогой в эксплуатации.',
       ],
       facts: [
         ['Где', 'Валенсия, Испания (CET)'],
         ['Статус', 'Autónomo · счета с IVA'],
         ['Языки', 'Английский, русский, испанский'],
-        ['Образование', 'Магистр, информатика и вычислительная техника — НГУ'],
+        ['Образование', 'Магистратура, информатика и вычислительная техника — НГУ'],
       ],
     },
     services: {
@@ -436,7 +436,7 @@ export const langs = {
         {
           id: 'backend',
           title: 'Разработка backend',
-          text: 'Серверная часть веб- и мобильных приложений: API, бизнес-логика, обработка данных и фоновые задачи на C#/.NET с PostgreSQL, MongoDB или Redis.',
+          text: 'Серверная часть веб- и мобильных приложений: API, бизнес-логика, обработка данных и фоновые задачи на C#/.NET с PostgreSQL, MongoDB, Redis или другими технологиями, которые подходят вашему проекту.',
         },
         {
           id: 'integrations',
@@ -476,9 +476,9 @@ export const langs = {
     experience: {
       title: 'Опыт',
       items: {
-        raritex: ['Backend-разработчик (контракт)', 'Backend-сервисы платформы верификации личности и комплаенса (KYC/AML).'],
-        deltatre: ['.NET-разработчик (контракт)', 'Сервисы прав доступа и контента для спортивных стриминговых платформ.'],
-        altery: ['Backend lead (контракт)', 'Backend платёжной платформы и электронных денег; руководство backend-разработкой.'],
+        raritex: ['Backend-разработчик', 'Backend-сервисы платформы верификации личности и комплаенса (KYC/AML).'],
+        deltatre: ['.NET-разработчик', 'Сервисы прав доступа и контента для спортивных стриминговых платформ.'],
+        altery: ['Backend lead', 'Backend платёжной платформы и электронных денег; руководство backend-разработкой.'],
         w7g: ['Тимлид backend', 'С нуля построил backend мобильных приложений SUITSME и FABU: до 100 000 активных пользователей в день, доступность 99,99 %, средний ответ быстрее 300 мс. Снизил затраты на AWS, руководил удалённой backend-командой.'],
         tawasal: ['Senior-разработчик', 'Распределение платежей, розыгрыши и админ-инструменты супер-приложения к бета-запуску; фоновая обработка на Hangfire.'],
         logican: ['Senior-разработчик', 'CRM в Azure на SQL Server с десктоп-клиентом на WPF; портал управления договорами для юристов с генерацией документов (.NET Core, Vue.js).'],
