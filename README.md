@@ -26,8 +26,10 @@ deploy/             files for the server (docker compose + host nginx snippet)
 
 ```bash
 node build.mjs
-npx serve dist        # or: python3 -m http.server -d dist 8080
+python3 -m http.server -d dist 8080
 ```
+
+Then open http://localhost:8080 (`/es/`, `/ru/`).
 
 ## Editing
 

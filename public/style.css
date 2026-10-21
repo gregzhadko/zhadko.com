@@ -161,6 +161,7 @@ h3 { font: 600 17px/1.35 var(--mono); letter-spacing: -.01em; margin: 0 0 8px; }
 
 /* cards */
 .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.cards.projects { grid-template-columns: repeat(2, 1fr); }
 .card {
   position: relative; background: var(--surface); border: 1px solid var(--line);
   border-radius: var(--radius); padding: 24px 22px;
