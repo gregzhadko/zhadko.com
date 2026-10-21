@@ -45,7 +45,10 @@ export const shared = {
       id: 'suitsme',
       title: 'SUITSME',
       tags: ['.NET', 'AWS', 'MongoDB', 'Redis', 'real-time'],
-      links: [{ label: 'App Store', url: 'https://apps.apple.com/app/id1536929374' }],
+      links: [
+        { label: 'suitsme.club', url: 'https://suitsme.club/play/' },
+        { label: 'App Store', url: 'https://apps.apple.com/app/id1536929374' },
+      ],
     },
     {
       id: 'fabu',
@@ -175,8 +178,8 @@ export const langs = {
     projects: {
       title: 'Selected projects',
       items: {
-        suitsme: 'Fashion dress-up game with community voting and real-time challenges. I designed and led its backend: 25K+ ratings on the App Store, up to 100K daily players.',
-        fabu: 'Self-care and wellness mobile app by the same studio: daily routines, mood check-ins, courses. Backend built on the same platform.',
+        suitsme: 'Fashion dress-up game with community voting and real-time challenges, on mobile and on the web. As lead backend developer I built its backend from scratch: 13M+ players worldwide, up to 100K daily players, 25K+ ratings on the App Store, featured by Apple and Google.',
+        fabu: 'Emotional wellness app for iOS and Android by the same company (w7g): daily self-care routines, mood check-ins, journaling and courses. As lead backend developer I built its backend from scratch.',
         knoll: 'My own multiplayer word game in Telegram: game sessions, hints with an LLM, PostgreSQL and Redis, deployed with Docker and GitHub Actions.',
         hat: 'Party word game for iPhone and iPad made with the Pigowl team: teams explain words with mimes, single words or drawings against the clock. On the App Store since 2016, rated 4.6 from 243 reviews.',
       },
@@ -332,8 +335,8 @@ export const langs = {
     projects: {
       title: 'Proyectos destacados',
       items: {
-        suitsme: 'Juego de moda con votaciones de la comunidad y retos en tiempo real. Diseñé y dirigí su backend: más de 25.000 valoraciones en la App Store y hasta 100.000 jugadores diarios.',
-        fabu: 'App móvil de autocuidado y bienestar del mismo estudio: rutinas diarias, registro del estado de ánimo, cursos. Backend sobre la misma plataforma.',
+        suitsme: 'Juego de moda con votaciones de la comunidad y retos en tiempo real, en móvil y en la web. Como desarrollador backend principal construí su backend desde cero: más de 13 millones de jugadores en todo el mundo, hasta 100.000 jugadores diarios, más de 25.000 valoraciones en la App Store y destacado por Apple y Google.',
+        fabu: 'App de bienestar emocional para iOS y Android de la misma empresa (w7g): rutinas diarias de autocuidado, registro del estado de ánimo, diario y cursos. Como desarrollador backend principal construí su backend desde cero.',
         knoll: 'Mi propio juego de palabras multijugador en Telegram: partidas, pistas con un LLM, PostgreSQL y Redis, desplegado con Docker y GitHub Actions.',
         hat: 'Juego de palabras para grupos en iPhone y iPad, creado con el equipo Pigowl: los equipos explican palabras con mímica, una sola palabra o dibujos contra reloj. En la App Store desde 2016, con una valoración de 4,6 sobre 243 opiniones.',
       },
@@ -489,8 +492,8 @@ export const langs = {
     projects: {
       title: 'Проекты',
       items: {
-        suitsme: 'Игра про моду с голосованием сообщества и челленджами в реальном времени. Проектировал и вёл её backend: 25 000+ оценок в App Store, до 100 000 игроков в день.',
-        fabu: 'Мобильное приложение для заботы о себе от той же студии: ежедневные практики, трекер настроения, курсы. Backend на той же платформе.',
+        suitsme: 'Игра про моду с голосованием сообщества и челленджами в реальном времени, на мобильных и в вебе. Как ведущий backend-разработчик построил её backend с нуля: 13+ млн игроков по всему миру, до 100 000 игроков в день, 25 000+ оценок в App Store, игру выделяли Apple и Google.',
+        fabu: 'Приложение для эмоционального благополучия на iOS и Android от той же компании (w7g): ежедневные практики заботы о себе, трекер настроения, дневник, курсы. Как ведущий backend-разработчик построил его backend с нуля.',
         knoll: 'Моя собственная многопользовательская игра в слова в Telegram: игровые сессии, подсказки через LLM, PostgreSQL и Redis, деплой через Docker и GitHub Actions.',
         hat: 'Игра в слова для компании на iPhone и iPad, сделанная с командой Pigowl: объяснить слово жестами, одним словом или рисунком, пока не кончилось время. В App Store с 2016 года, оценка 4,6 по 243 отзывам.',
       },

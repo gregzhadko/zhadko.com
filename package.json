@@ -1,0 +1,10 @@
+{
+  "name": "zhadko.com",
+  "private": true,
+  "type": "module",
+  "description": "Business-card site of Grigory Zhadko (EN/ES/RU). No dependencies.",
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "node build.mjs && node preview.mjs"
+  }
+}

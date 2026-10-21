@@ -16,20 +16,26 @@ Static, no backend, three languages:
 ```
 src/content.mjs     all texts (en / es / ru) and shared data: contacts, experience, projects
 build.mjs           zero-dependency renderer: content -> dist/{,es/,ru/}index.html + sitemap.xml
+preview.mjs         local preview server for dist/ (used by npm start)
 public/             static files copied as is (css, js, favicon, robots, 404, assets/photo.jpg)
 Dockerfile          node renders the pages, nginx serves them
 nginx.conf          nginx config inside the container
 deploy/             files for the server (docker compose + host nginx snippet)
 ```
 
-## Local preview
+## Run locally
+
+Needs only Node.js 18+ (no `npm install`):
 
 ```bash
-node build.mjs
-python3 -m http.server -d dist 8080
+cd ~/Repo/zhadko.com
+npm start
 ```
 
-Then open http://localhost:8080 (`/es/`, `/ru/`).
+Open http://localhost:8080 — Spanish at http://localhost:8080/es/, Russian at http://localhost:8080/ru/.
+Stop with `Ctrl+C`. After editing texts, stop and run `npm start` again.
+
+Another port: `PORT=3000 npm start`.
 
 ## Editing
 
